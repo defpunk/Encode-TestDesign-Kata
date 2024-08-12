@@ -20,7 +20,7 @@ final class XyzTimer {
                 temp |= (timerValue & 0x1F);
             } else {
                 System.out.print("XYZ timer value out of range. Encoding max value\n");
-                temp |= 0x1F;
+                temp |= 0x1E;
             }
         }
         data.append(temp);

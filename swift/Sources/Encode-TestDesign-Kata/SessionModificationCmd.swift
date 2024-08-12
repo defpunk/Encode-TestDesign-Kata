@@ -60,7 +60,7 @@ class XyzTimer {
                 temp |= timerValue & 0x1F
             } else {
                 print("XYZ timer value out of range. Encoding max value")
-                temp |= 0x1F
+                temp |= 0x1E
             }
         }
         data.append(temp)

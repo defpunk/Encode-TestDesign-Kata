@@ -28,7 +28,7 @@ void XyzTimer::encode(ByteBuffer& data)
         else
         {
             std::cout << "XYZ timer value out of range. Encoding max value" << std::endl;
-            temp |= 0x1F;
+            temp |= 0x1E;
         }
     }
     data.append(temp);

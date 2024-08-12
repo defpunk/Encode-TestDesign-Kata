@@ -83,7 +83,7 @@ namespace EncodeKata
                 else
                 {
                     Console.Write("XYZ timer value out of range. Encoding max value\n");
-                    temp |= 0x1F;
+                    temp |= 0x1E;
                 }
             }
             data.Append(temp);
